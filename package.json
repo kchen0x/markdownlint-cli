@@ -1,7 +1,7 @@
 {
-  "name": "markdownlint-cli",
-  "version": "0.16.0",
-  "description": "MarkdownLint Command Line Interface",
+  "name": "hs-markdownlint-cli",
+  "version": "0.1.0",
+  "description": "HS MarkdownLint Command Line Interface",
   "main": "markdownlint.js",
   "bin": {
     "markdownlint": "markdownlint.js"
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igorshubovych/markdownlint-cli.git"
+    "url": "git+https://github.com/kchen0x/markdownlint-cli.git"
   },
   "keywords": [
     "markdown",
@@ -29,12 +29,12 @@
     "cli",
     "cli-app"
   ],
-  "author": "Igor Shubovych <igor.shubovych@gmail.com>",
+  "author": "Kun Chen <kun.chen@ihandysoft.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/igorshubovych/markdownlint-cli/issues"
+    "url": "https://github.com/kchen0x/markdownlint-cli/issues"
   },
-  "homepage": "https://github.com/igorshubovych/markdownlint-cli#readme",
+  "homepage": "https://github.com/kchen0x/markdownlint-cli#readme",
   "dependencies": {
     "commander": "~2.9.0",
     "deep-extend": "~0.5.1",

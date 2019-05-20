@@ -1,0 +1,7 @@
+{
+    "line-length": false,
+    "fenced-code-language": false,
+    "no-duplicate-heading": false,
+    "no-bare-urls": false,
+    "MD007": { "indent": 4 }
+}
