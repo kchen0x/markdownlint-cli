@@ -1,6 +1,6 @@
 {
   "name": "hs-markdownlint-cli",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "HS MarkdownLint Command Line Interface",
   "main": "markdownlint.js",
   "bin": {
@@ -17,7 +17,8 @@
     "precommit": "xo && npm test"
   },
   "files": [
-    "markdownlint.js"
+    "markdownlint.js",
+    ".markdownlint.json"
   ],
   "repository": {
     "type": "git",

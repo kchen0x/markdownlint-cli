@@ -27,6 +27,11 @@ const configFileParsers = [JSON.parse, jsYaml.safeLoad];
 function readConfiguration(args) {
   let config = rc('markdownlint', {});
   const userConfigFile = args.config;
+
+  const moduleConfigFile = path.join(__dirname, '.markdownlint.json');
+  const moduleConfig = markdownlint.readConfigSync(moduleConfigFile, configFileParsers);
+  config = extend(config, moduleConfig);
+
   for (const projectConfigFile of projectConfigFiles) {
     try {
       fs.accessSync(projectConfigFile, fs.R_OK);
